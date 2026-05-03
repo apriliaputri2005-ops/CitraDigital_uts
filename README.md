@@ -26,8 +26,7 @@ Pada tahap awal dibuat citra grayscale berukuran 256x256 piksel yang berisi bebe
 ---
 
 ### 1️⃣ Thresholding
-![Thresholding](https://github.com/apriliaputri2005-ops/CitraDigital_uts/blob/74af7fb2e9d51461902aa6ed82b48df019695d06/Thresholding.png)
-
+![Thresholding](https://github.com/apriliaputri2005-ops/CitraDigital_uts/blob/abd9ce9c5470ce1141b1dbafb57e91504525401e/Thresholding.png)
 **Penjelasan:**
 Metode thresholding digunakan untuk memisahkan objek dari latar belakang berdasarkan nilai intensitas piksel.  
 - Threshold global menggunakan nilai tetap  
@@ -39,8 +38,7 @@ Hasil menunjukkan bahwa metode Otsu dan adaptif lebih optimal dibanding global.
 ---
 
 ### 2️⃣ Region Growing
-![Region Growing](hasil/region_growing.png)
-
+![Region Growing](https://github.com/apriliaputri2005-ops/CitraDigital_uts/blob/abd9ce9c5470ce1141b1dbafb57e91504525401e/RegionGrowing.png)
 **Penjelasan:**
 Region Growing dimulai dari seed point, kemudian memperluas area berdasarkan kemiripan intensitas piksel.  
 Hasil segmentasi sangat dipengaruhi oleh:
@@ -52,7 +50,7 @@ Jika parameter tepat, objek dapat tersegmentasi dengan baik.
 ---
 
 ### 3️⃣ Deteksi Tepi
-![Deteksi Tepi](hasil/deteksi_tepi.png)
+![Deteksi Tepi](https://github.com/apriliaputri2005-ops/CitraDigital_uts/blob/abd9ce9c5470ce1141b1dbafb57e91504525401e/GarisTepi.png)
 
 **Penjelasan:**
 Metode ini digunakan untuk mendeteksi batas objek.
@@ -64,7 +62,7 @@ Hasil menunjukkan bahwa Canny memberikan deteksi tepi terbaik.
 ---
 
 ### 4️⃣ K-Means Clustering
-![K-Means](hasil/kmeans.png)
+![K-Means](https://github.com/apriliaputri2005-ops/CitraDigital_uts/blob/abd9ce9c5470ce1141b1dbafb57e91504525401e/kmeans.png)
 
 **Penjelasan:**
 K-Means mengelompokkan piksel ke dalam beberapa cluster berdasarkan intensitas.  
@@ -75,7 +73,7 @@ Hasil segmentasi menunjukkan pembagian citra menjadi beberapa bagian sesuai ting
 ---
 
 ### 5️⃣ Watershed Segmentation
-![Watershed](hasil/watershed.png)
+![Watershed](https://github.com/apriliaputri2005-ops/CitraDigital_uts/blob/abd9ce9c5470ce1141b1dbafb57e91504525401e/watershed.png)
 
 **Penjelasan:**
 Metode watershed digunakan untuk memisahkan objek yang saling berdekatan.  
